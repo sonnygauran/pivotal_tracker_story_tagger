@@ -1,3 +1,4 @@
 source 'https://rubygems.org'
-
-gem "rest-client"
+gem 'logger'
+gem 'rest-client'
+gem 'json'

@@ -1,6 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    json (2.1.0)
+    logger (1.2.8)
     mime-types (2.1)
     rest-client (1.6.7)
       mime-types (>= 1.16)
@@ -9,4 +11,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  json
+  logger
   rest-client
+
+BUNDLED WITH
+   1.15.1

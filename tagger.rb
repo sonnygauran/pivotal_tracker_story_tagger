@@ -1,6 +1,7 @@
 require 'logger'
-require 'restclient'
+require 'rest_client'
 require 'time'
+require 'json'
 
 PROJECT_ID = ENV["PIVOTAL_TRACKER_PROJECT_ID"] || nil
 TOKEN = ENV["PIVOTAL_TRACKER_API_TOKEN"] || nil
